@@ -11,6 +11,10 @@ public class League<T extends Team> {
 
     private ArrayList<T> leagues = new ArrayList<T>();
 
+    public League(String name, int points) {
+        this.name = name;
+        this.points = points;
+    }
 
     public String getName() {
         return name;

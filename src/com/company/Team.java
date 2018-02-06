@@ -11,6 +11,9 @@ public class Team<T extends Player> implements Comparable<Team<T>> {
 
     private ArrayList<T> member = new ArrayList<T>();
 
+    public Team(String name) {
+        this.name = name;
+    }
 
     public String getName() {
         return this.name;
